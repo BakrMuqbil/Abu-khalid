@@ -1,0 +1,166 @@
+body {
+  text-align: center;
+  
+  font-family: sans-serif;
+  background-image: linear-gradient(110deg, #800000, #ffcc33);
+  min-height: 100vh;
+    
+}
+ 
+ .container{
+text-align: center;
+ }
+
+
+img{
+  width: 150px ;
+  height: 150px ;
+  
+}
+
+
+
+  .nav{
+    margin: 0 auto;
+  }
+
+
+#cul
+{
+  
+  background-color: #fff;
+  margin: 15% 3% ;
+  padding: 20px;
+  
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px #ee5253;
+}
+h2{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600px;
+}
+.walls{
+  
+}
+
+ #addon-wrapping{
+   position: relative;
+   right: 15px;
+   padding-bottom: 1px;
+  background: none;
+  outline: none;
+		border: none;
+  border-bottom: 1px solid #341f97;
+}
+
+	
+	  input{
+	  float: left;
+		color: #222f3e;
+		text-align: center;
+		font-size: 15px;
+		font-weight: 10px;
+		outline: none;
+		border: none;
+		background: none;
+		border-bottom: 1px solid #341f97;
+		width: 100px;
+		
+		}
+		#a:focus, #b:focus, #c:focus, #d:focus{
+		  
+		  
+		border-bottom: 2px solid #341f97;
+		width: 100px;
+		transition: 0.5s;
+		}
+		 #result{
+		   padding-top: 15px;
+		color: #341f97;
+		font-size: 30px;
+		 
+		 }
+		 table.greyGridTable {
+		 border-radius: px;
+	 margin: 0 auto;
+  border: solid ;
+  width: 80%;
+  height: 200px;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.greyGridTable td, table.greyGridTable th {
+  border: solid none;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 3px 2px;
+}
+table.greyGridTable td:nth-child(even) {
+  background-image: linear-gradient(90deg, #800000, #ffcc33);
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+}
+table.greyGridTable thead {
+  background-image: linear-gradient(10deg, #800000, #ffcc33);
+  border-bottom: 1px solid #444444;
+}
+table.greyGridTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: solid none;
+}
+table.greyGridTable thead th:first-child {
+  border-left: none;
+}
+
+
+		 
+		
+		 
+		 #btn,#clear {
+		  margin: 5%3%5%0;
+		font-family: inherit;
+		margin-top: 20px;
+		border: none;
+		color: #fff;
+		background-image: linear-gradient(110deg, #800000, #ffcc33);
+		width: 120px;
+		padding: 10px;
+		border-radius: 30px;
+		 }
+		 
+			#btn:hover , #clear:hover {
+			  box-shadow: 1px 1px 10px #341f97;
+			}
+			#result-mar{
+		  
+		color: #341f97;
+		font-size: 30px;
+
+		}
+			
+			
+		 #info{
+		   margin-top: 10px ;
+		   text-align: center;
+		   
+		 }
+		 @media(max-width: 1028px){
+		   
+		   .tab-content{
+		     text-align: center;
+		   
+		 }
+		 .walls{
+		   margin:  auto 0  ;
+		   padding-left: 100px;
+		   
+		 }
+		 
+		 
+		   
+		 }

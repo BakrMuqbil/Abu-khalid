@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>my page</title>
+
+  <link rel="stylesheet" href="bootstrap.css">
+
+  <link href="bootstrap.min.css" rel="stylesheet">
+  <script src="bootstrap.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+  <section id="cul">
+
+    <div class="container">
+      <img src="Image/‏‪1.jpg">
+      <h2>Calculator</h2>
+      <div class="nav">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Walls</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Marble</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">tairs</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+    <div class="tab-content" id="myTabContent">
+
+      <!-- walls page  -->
+
+      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+        
+        <div class="row">
+          <div class="walls col-lg-6 col-md-6 "><br>
+          <div class="input-group flex-nowrap">
+            <input type="number" id="a"  placeholder= "المساحة">
+            <p class="text"></p><br>
+            <span class="input-group-text" id="addon-wrapping" style="font-weight: bold; opacity:0.5">/m²</span>
+            </div>
+            <div class="input-group flex-nowrap">
+            <input type="number" id="b" placeholder="الارتفاع">
+            <p class="text"> </p><br>
+             <span class="input-group-text" id="addon-wrapping" style="font-weight: bold; opacity:0.5">/m²</span>
+            </div>
+            <div class="input-group flex-nowrap">
+            <input type="number" id="c" placeholder="طول ط">
+            <p class="text"> </p><br>
+             <span class="input-group-text" id="addon-wrapping" style="font-weight: bold; opacity:0.5">/cm²</span>
+            </div>
+            <div class="input-group flex-nowrap">
+            <input type="number" id="d" placeholder="عرض ط">
+             <span class="input-group-text" id="addon-wrapping" style="font-weight: bold; opacity:0.5">/cm²</span>
+            </div>
+          </div>
+          
+          <div class="col-lg-6 col-md-6">
+          <div id="result"> </div>
+          
+          <table class="greyGridTable">
+<thead>
+<tr>
+<th>#</th>
+<th>Decor</th>
+<th>Light</th>
+<th>Dark</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1×</td> <td style="color:white" id="Decor"></td><td id="light"></td><td style="color:white" id="dark"></td></tr>
+<tr>
+<td>2×</td><td style="color:white" id="Decor_2"></td><td id="light_2"></td><td style="color:white" id="dark_2"></td></tr>
+<tr>
+<td>3×</td><td style="color:white" id="Decor_3"></td><td id="light_3"></td><td style="color:white" id="dark_3"></td></tr>
+</tbody>
+</tr>
+</table>
+          
+          </div>
+        </div>
+        
+        <div class="bat">
+        <button id="btn" onClick="BMI()">Calculate</button>
+        <button id="clear" onclick="Clear()">clear</button>
+         </div>
+      </div>
+
+      <!-- marble page -->
+
+      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+        <div class="row">
+          <div class="walls col-lg-6 col-md-6 "><br>
+            <input type="number" id="m_a" placeholder="الطول">
+            <p class="text"></p><br>
+            <input type="number" id="m_b" placeholder="عرض القائم">
+            <p class="text"> </p><br>
+            <input type="number" id="m_c" placeholder="عرض النائم">
+            <p class="text"> </p><br>
+            <input type="number" id="m_d" placeholder="العدد">
+          </div>
+       
+          <div class="col-lg-6 col-md-6">
+            <div id="result-mar">
+       
+            </div>
+          </div>
+          <br>
+        </div>
+        <div class="bat">
+       
+          <button id="btn" onClick="MBMI()">Calculate</button>
+          <button id="clear" onclick="Clear()">clear</button>
+        </div>
+        
+        
+      </div>
+
+      <!-- tairs page-
+
+      <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...
+      
+      
+      </div>
+-->
+    </div>
+    
+
+      <footer id="footer">
+    <p> /cmيرجا ادخال المقاسات بال سنتيمتر
+    </p>
+    <p>© Copyright By Bakr_Muqbil</p>
+  </footer>
+
+  </section>
+  <script src="jquery.min.js"></script>
+  <script src="bootstrap.min.js" type="text/javascript"></script>
+  <script src="main.js"></script>
+
+
+</body>
+
+</html>
